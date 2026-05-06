@@ -8,8 +8,15 @@
       "email": "thomasbagas.s@gmail.com"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/thomasbagass/belajar-php-composer-hello"
+    }
+  ],
   "require": {
     "php": ">=8.0",
+    "thomasbagassatria/belajar-composer-membuat-library": "1.0.0",
     "monolog/monolog": "3.10.0"
   },
   "autoload": {
